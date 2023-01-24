@@ -129,7 +129,6 @@ public class CtrlArrendamiento implements ActionListener, ItemListener {
 			modelArriendo.setObservaciones("");
 			modelArriendo.setId_nicho(nicho.getId());
 			
-			 
 			if(modelConsultasArriendo.resgistrar(modelArriendo)) {
 				modelConsultasArriendo.obtenerIdArreindo(modelArriendo);
 				
