@@ -17,6 +17,7 @@ public class Conexion {
 	public Connection getConexion() {
 		try {
 			miConexion = DriverManager.getConnection(this.url, this.user, this.password);
+			System.out.print("Hola");
 		}catch(SQLException e) {
 			System.err.println(e);
 		}
